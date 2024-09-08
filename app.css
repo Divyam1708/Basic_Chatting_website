@@ -1,0 +1,500 @@
+
+
+
+#side_nav{
+    z-index: 100;
+}
+:root{
+    --background_colour:gray;
+    --text_colour:wheat;
+}
+
+
+body{
+    background-color: black;
+    color: wheat;
+}
+
+.main_container{
+    max-width: 85em;
+    padding: 1em;
+    margin: auto;
+}
+
+
+.chat_list_toggle_button_design{
+    display: none;
+}
+
+#upper_nav{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 8px rgb(60, 255, 60);
+}
+
+
+.nav_bar_logo_tab{
+/* flex-grow: 1; */
+}
+
+#nav_bar_part_1{
+
+}
+
+#nav_logo_img{
+    width: 10em;
+}
+
+
+
+
+
+.nav_bar_menu_tab{
+    display: block;
+}
+#nav_bar_part_2{
+
+}
+.upper_nav_menu_ul_design{
+    display: flex;
+    padding: 0.5em;
+}
+.upper_nav_menu_design{
+    list-style: none;
+    margin-inline: 1em;
+}
+
+
+
+
+
+
+.nav_bar_search_and_profile{
+ display: flex;   
+ align-items: center;
+ flex-basis: 2;
+}
+
+#nav_bar_part_3{
+
+}
+
+#nav_bar_profile_logo{
+    width: 3em;
+}
+#nav_bar_part_4{
+    display: none;
+    flex-basis: 2;
+}
+
+
+
+#side_nav{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.section_2_design{
+    margin-top: 0.5em;
+    border: 2px solid red;
+    height:75vh;
+    display: flex;
+}
+
+.chat_list_design{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 46, 47);
+    height: 100%;
+    width: 20%;
+        
+}
+
+.chat_list_design p{
+    padding: 0em;
+    margin: 0em;
+        
+}
+
+.person_chat_design{
+    display: flex;
+    padding: 0.5em;
+    border-bottom: 1px solid rgb(129, 129, 27);
+}
+
+
+.person_chat_picture_fig_design{
+    all: unset;
+    /* background-color: blue; */
+    margin: 0em;
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+#person_chat_image_design{
+    width: 3em;
+    padding: 0em;   
+}
+
+
+.person_chat_all_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.person_chat_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.chat_box_design{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(149, 219, 222,0.4);
+    /* filter: blur(1px); */
+    backdrop-filter: blur(1000px);
+    filter:drop-shadow(1px 1px 5px white);
+    height: 100%;
+    width: 80%;
+}
+
+.chat_output_design{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* background-color: yellow; */
+}
+
+.chat_box_chats_content_design{
+    background-color: pink;
+    width: 50%;
+    width: 99.5%;
+    max-height:90% ;
+    border: 1px solid red;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-end; */
+    position: absolute;
+    bottom: 60px;
+    overflow-y: scroll;
+}
+
+.chat_box_chats_content_design p{
+    color: rgb(57, 19, 19);
+}
+.chat_box_chats_content_design::-webkit-scrollbar{
+    display: none;
+}
+
+.each_chat_exchanged_div_design{
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    max-width: 90%;
+    min-width: 20em;
+    background-color: rgb(157, 154, 154);
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-inline: 0.5em;
+    position: relative;
+    /* right: -80px; */
+}
+
+
+
+.each_chat_received_div_design{
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    max-width: 90%;
+    background-color: grey;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-inline: 0.5em;
+}
+
+.each_chat_sent_div_design{
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    max-width: 90%;
+    background-color: grey;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-inline: 0.5em;
+}
+
+
+
+
+.chat_input_design{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+    background-color: white;
+}
+
+
+.chat_text_input_design{
+    resize: none;
+    width: 99%;
+    padding: 0em;
+    max-height: 5em;
+    /* max-height: 2em; */
+    /* all: unset; */
+}
+
+.send_button_design{
+    all: unset;
+    margin-inline: 0.1em;
+}
+
+.send_button_icon_image_design{
+    width: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:601px) and (max-width:1000px){
+
+
+    :root{
+        --background_colour:gray;
+        --text_colour:wheat;
+    }
+    
+    
+    body{
+        background-color: black;
+        color: wheat;
+    }
+    
+    .main_container{
+        max-width: 85em;
+        padding: 1em;
+        margin: auto;
+    }
+    
+    
+    #upper_nav{
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 1px 1px 8px rgb(60, 255, 60);
+        /* filter: drop-shadow(10px 10px 8px green); */
+    }
+    
+    
+    .nav_bar_logo_tab{
+    /* flex-grow: 1; */
+    }
+    
+    #nav_bar_part_1{
+    
+    }
+    
+    #nav_logo_img{
+        width: 10em;
+    }
+    
+    
+    
+    
+    
+    .nav_bar_menu_tab{
+        display: block;
+    }
+    #nav_bar_part_2{
+    
+    }
+    .upper_nav_menu_ul_design{
+        display: flex;
+        padding: 0.5em;
+    }
+    .upper_nav_menu_design{
+        list-style: none;
+        margin-inline: 1em;
+    }
+    
+    
+    
+    
+    
+    
+    .nav_bar_search_and_profile{
+     display: flex;   
+     align-items: center;
+     flex-basis: 2;
+    }
+    
+    #nav_bar_part_3{
+    
+    }
+    
+    #nav_bar_profile_logo{
+        width: 3em;
+    }
+    #nav_bar_part_4{
+        display: none;
+        flex-basis: 2;
+    }
+
+    
+
+
+    :root{
+        --background_colour:gray;
+        --text_colour:wheat;
+    }
+    
+    
+    body{
+        background-color: black;
+        color: wheat;
+    }
+    
+    .main_container{
+        max-width: 85em;
+        padding: 0.1em;
+        margin: auto;
+    }
+    
+    
+    #upper_nav{
+        height: 5em;
+    }
+    
+    
+    .nav_bar_logo_tab{
+        flex-grow: 1;
+    }
+    
+    #nav_bar_part_1{
+    
+    }
+    
+    #nav_logo_img{
+        width: 8em;
+        padding: 0em;
+    }
+    
+    .nav_bar_menu_tab{
+        display: none;    
+    }
+
+    .nav_bar_menu_tab.ham_burger{
+        display: flex;
+    }
+
+    #nav_bar_part_2{
+    
+    }
+    .upper_nav_menu_ul_design{
+        display: flex;
+        padding: 0.5em;
+    }
+    .upper_nav_menu_design{
+        list-style: none;
+        margin-inline: 1em;
+    }
+    
+
+    .nav_bar_search_and_profile{
+        display: flex;   
+        align-items: center;
+        justify-content: end;
+    }
+    
+    #nav_bar_part_3{
+    
+    }
+    
+    #nav_bar_profile_logo{
+        display:  none;
+    }
+
+    #nav_bar_part_4{
+        flex-shrink: 1;
+        display: block;
+    }
+
+    #nav_bar_hamburger{
+        width: 2em;
+    }
+    
+    
+
+
+
+    #side_nav{
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 20em;
+        height: 100%;
+        display: none;
+    }
+    
+    #hamburger_close_div_design{
+        width: 100%;
+        display: flex;    
+        justify-content: flex-end;
+        border: 2px solid blue;
+    }
+    #hamburger_close{
+        width: 1em;  
+    }
+    
+    .side_nav_bar_menu_tab_design{
+        color: black;
+    }
+    
+    .side_nav_menu_ul_design{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .side_nav_menu_design{
+        border-bottom: 2px solid red;
+        font-size: 2em;
+        margin-block: 0.2em;
+        margin-left: -1.2em;
+    }
+
+    
+}
+
