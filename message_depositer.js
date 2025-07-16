@@ -8,12 +8,12 @@ let chat_box_chat_content_design=document.getElementById('chat_box_char_content_
 let text_input=document.getElementById(`chat_text_input`);
 text_input.value=" ";
 
-let store_time=new Date();
 let hour=0;
 let minute=0;
 let put_time=new String();
 receive_button.addEventListener(('click'),(event_send)=>{
     
+    let store_time=new Date();
     hour=store_time.getHours();
     minute=store_time.getMinutes();
     put_time=hour+":"+minute;
@@ -60,6 +60,7 @@ receive_button.addEventListener(('click'),(event_send)=>{
 
     console.log(text_input.value);
     text_input.value=" ";
+    put_time=0
 })
 
 
@@ -70,7 +71,7 @@ receive_button.addEventListener(('click'),(event_send)=>{
 
 send_button.addEventListener(('click'),(event_send)=>{
 
-    
+    let store_time=new Date();
     // let each_chat_recieved=document.createElement('div');
     // each_chat_recieved.style.display="flex";
     // each_chat_recieved.style.justifyContent="space-between";
@@ -153,4 +154,7 @@ send_button.addEventListener(('click'),(event_send)=>{
     }
     console.log(text_input.value);
     text_input.value=" ";
+    console.log(put_time);
+    put_time=0;
+    
 })
